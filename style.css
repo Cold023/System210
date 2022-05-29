@@ -203,6 +203,15 @@ footer{
 	header .contenedor-texto .texto .profesion{
 		font-size: 16px;
 }
+	header .contenedor-texto .texto:active{
+		/*background-attachment: fixed;*/
+		/*background-repeat: no-repeat;*/
+		background: url('0.gif');
+		color: #000;
+		background-size: contain;
+
+		/*overflow: hidden;*/
+	}
 	
 	
 	@media screen and (max-width: 470px){
