@@ -159,11 +159,21 @@ header .contenedor-texto .texto .profesion{
 	}
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 600px){
 	header .contenedor-texto .texto .nombre{
 		font-size: 35px;
 	}
 
 	header .contenedor-texto .texto .profesion{
 		font-size: 16px;
+}
+	
+	
+	@media screen and (max-width: 470px){
+	header .contenedor-texto .texto .nombre{
+		font-size: 25px;
+	}
+
+	header .contenedor-texto .texto .profesion{
+		font-size: 11px;
 }
